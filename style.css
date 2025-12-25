@@ -1,0 +1,122 @@
+
+.heading{
+    background-color: darkred;
+    border-top: 20px;
+    border-radius: 20px;
+    font-size: larger;
+    width: 1250px;
+}
+
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 60px;
+}
+
+
+
+.navbar a {
+  margin-right: 30px;
+  text-decoration:none;
+  color: #7b1e1e;
+  font-size: 16px;
+
+}
+
+.hero {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+
+}
+
+.hero-cards {
+  display: flex;       
+  gap: 20px;           
+  align-items: flex-start;
+}
+
+.simplecards {
+  display: flex;
+  flex-direction: column; 
+  gap: 15px;
+}
+
+.card {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  
+  width: 250px;
+  height: 200px;
+  text-align: center;
+}
+
+
+.largecard {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  height: 450px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ul{
+    padding-left: 20px;
+    font-size: larger;
+}
+.coffee-gallery {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.coffee-card {
+  display: block;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 150px;
+  padding: 10px;
+  color: black;
+}
+
+.coffee-card img {
+  width: 100%;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+
+.footer {
+    background-color: #333; 
+    color: white;          
+    text-align: center;     
+    padding: 15px 0;        
+    width: 100%;
+    margin-top: 50px;     
+    font-size: 14px;
+}
+.menuerightcard{
+  display: flex;
+  gap: 20px;
+
+}
+.menuelargecard{
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  height: 450px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
